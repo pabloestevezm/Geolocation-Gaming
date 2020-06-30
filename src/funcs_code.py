@@ -36,17 +36,14 @@ def transformToGeoPoint(s):
 
 
 def geocode(address):
-    try:
-        res = requests.get(f"https://geocode.xyz/{address}", params={"json":1})
-        data = res.json()
-        data
-        return {
-            "type":"Point",
-            "coordinates":[float(data["longt"]),float(data["latt"])]
-        }
-    except Exception:
-        raise ValueError("error")
-        return None
+
+    res = requests.get(f"https://geocode.xyz/{address}", params={"json":1})
+    data = res.json()
+    data
+    return {
+        "type":"Point",
+        "coordinates":[float(data["longt"]),float(data["latt"])]
+    }
 
 
 def getLoc(long, lat):
