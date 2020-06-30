@@ -1,0 +1,5 @@
+,_id,name,description,sec_description,address1,address2,zip_code,city,state_code,country_code,latitude,longitude,geopoint
+0,52cdef7c4bab8bd67529815f,Gilt Groupe,Designer Sample Sales Online,New York Office,2 Park Ave Fl 4,,10016-5602,New York,NY,USA,40.74727,-73.9800645,"{'type': 'Point', 'coordinates': [-73.9800645, 40.74727]}"
+5,52cdef7c4bab8bd6752987a5,PixelCrayons,Web Design and Development Company,,228 Park Ave S # 25950,,10003,New York,NY,USA,28.682042,77.087502,"{'type': 'Point', 'coordinates': [77.087502, 28.682042]}"
+76,52cdef7e4bab8bd67529b07e,MindSmack,"Web design, mobile apps",MindSmack HQ,311 West 43rd Street,Penthouse,10036,New York,NY,USA,40.758492,-73.989987,"{'type': 'Point', 'coordinates': [-73.989987, 40.758492]}"
+177,52cdef7f4bab8bd67529be52,Covet Shop,Online Designer Consignment Boutique,New York,21 East 7th Street,,10003,New York,NY,USA,40.72874,-73.989324,"{'type': 'Point', 'coordinates': [-73.989324, 40.72874]}"
